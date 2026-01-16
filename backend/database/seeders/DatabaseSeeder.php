@@ -16,9 +16,9 @@ class DatabaseSeeder extends Seeder
     public function run(): void
     {
         \App\Models\User::factory()->create([
-            'email' => 'mentor@clicknext.com',
+            'email' => 'mentor@clicknext.co.th',
             'password' => bcrypt('123456'),
-            'balance' => 1000.00,
+            'balance' => 0.00,
         ]);
     }
 }
