@@ -10,9 +10,12 @@ class Transaction extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['user_id', 'type', 'amount'];
-
-    // ความสัมพันธ์: Transaction เป็นของ User คนหนึ่ง
+    protected $fillable = [
+        'user_id',
+        'type',
+        'amount'
+    ];
+    
     public function user(): BelongsTo
     {
         return $this->belongsTo(User::class);

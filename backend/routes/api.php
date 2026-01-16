@@ -12,3 +12,6 @@ Route::get('/test', function () {
 });
 
 Route::post('/transaction', [TransactionController::class, 'manage']);
+Route::get('/transaction/history', [TransactionController::class, 'history']);
+Route::put('/transaction/{id}', [TransactionController::class, 'update']);
+Route::delete('/transaction/{id}', [TransactionController::class, 'destroy']);
