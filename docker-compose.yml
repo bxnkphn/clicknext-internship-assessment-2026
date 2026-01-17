@@ -59,6 +59,7 @@ services:
       
       echo '--------------------------------------';
       echo '🚀 Setup Complete! Starting Server...';
+      echo '>>>>>>> http://localhost:3000/ <<<<<<<';
       echo '--------------------------------------';
       php artisan serve --host=0.0.0.0 --port=8000
       "
