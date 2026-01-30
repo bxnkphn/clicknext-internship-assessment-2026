@@ -1,18 +1,15 @@
 <h1 align="center">🗂️ Banking Web App - ClickNext Internship 2026</h1>
 
 <section align="center">
-
-ระบบจำลองธุรกรรมธนาคารระบบสามารถรองรับการเข้าสู่ระบบ, การฝาก-ถอนเงิน และดูประวัติธุรกรรม โดยระบบทั้งหมดถูกห่อหุ้มด้วย Docker เพื่อให้ Deploy และรันใช้งานได้ทันที
-
-<img src="https://img.shields.io/badge/Vue.js-3.5.26-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white" alt="Vue.js">
-<img src="https://img.shields.io/badge/Vite-7.3.0-6366F1?style=for-the-badge&logo=vite&logoColor=white" alt="Vite">
-<img src="https://img.shields.io/badge/Bootstrap-5.3.8-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap">
-<img src="https://img.shields.io/badge/Node.js-20.19.6-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js">
-<img src="https://img.shields.io/badge/Laravel-12.0-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel">
-<img src="https://img.shields.io/badge/MySQL-8.0.44-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL">
-<img src="https://img.shields.io/badge/Docker-0db7ed?style=for-the-badge&logo=docker&logoColor=white" alt="Docker">
-<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git">
-
+    <p>ระบบจำลองธุรกรรมธนาคารระบบสามารถรองรับการเข้าสู่ระบบ, การฝาก-ถอนเงิน และดูประวัติธุรกรรม โดยระบบทั้งหมดถูกห่อหุ้มด้วย Docker เพื่อให้ Deploy และรันใช้งานได้ทันที</p>
+    <img src="https://img.shields.io/badge/Vue.js-3.5.26-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white" alt="Vue.js">
+    <img src="https://img.shields.io/badge/Vite-7.3.0-6366F1?style=for-the-badge&logo=vite&logoColor=white" alt="Vite">
+    <img src="https://img.shields.io/badge/Bootstrap-5.3.8-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap">
+    <img src="https://img.shields.io/badge/Node.js-20.19.6-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js">
+    <img src="https://img.shields.io/badge/Laravel-12.0-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel">
+    <img src="https://img.shields.io/badge/MySQL-8.0.44-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL">
+    <img src="https://img.shields.io/badge/Docker-0db7ed?style=for-the-badge&logo=docker&logoColor=white" alt="Docker">
+    <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git">
 </section>
 
 ### สารบัญ
@@ -52,27 +49,27 @@ git clone https://github.com/your-username/clicknext-internship-assessment-2026.
 cd clicknext-internship-assessment-2026
 ```
 
-3. ใช้คำสั่ง `docker-compose up -d` เพื่อติดตั้ง dependencies สำหรับ Frontend, Backend และ Database
+3. ใช้คำสั่ง `docker-compose up -d` เพื่อติดตั้ง Dependencies สำหรับ Frontend, Backend และ Database
 
 ⚠️ Note: ขั้นตอนนี้จะใช้เวลา 5-10 นาที ขึ้นอยู่กับความเร็วของอินเทอร์เน็ต
 
 ```bash
 docker compose up -d # รอติดตั้ง Dependencies 5-10 นาที
 
-# เพิ่มเติม: สามารถใช้คำสั่งนี้เพื่อติดตามสถานะ
+# เพิ่มเติม: สามารถใช้คำสั่งด้านล่างนี้เพื่อติดตามสถานะการติดตั้ง Dependencies
 # docker compose logs -f backend
 ```
 
-4. หลังจากติดตั้งเสร็จจะขึ้น `Setup Complete`
+4. หลังจากติดตั้งเสร็จจะขึ้นข้อความว่า `Setup Complete! Starting Server...` บน Terminal
 
-```bash
+```
 --------------------------------------
 🚀 Setup Complete! Starting Server...
 >>>>>>> http://localhost:3000/ <<<<<<<
 --------------------------------------
 ```
 
-5. ระบบพร้อมใช้งานสามารถเข้างานได้ที่ **[localhost:3000](http://localhost:3000/)** สามาถเข้าสู่ระบบด้วยบัญชีทดสอบผ่าน Email:`mentor@clicknext.co.th` Password: `123456` ครับ
+5. ระบบพร้อมใช้งานสามารถเข้างานได้ที่ **[localhost:3000](http://localhost:3000/)** สามาถเข้าสู่ระบบด้วยบัญชีทดสอบผ่าน Email:`mentor@clicknext.co.th` Password: `123456`
 
 ---
 
